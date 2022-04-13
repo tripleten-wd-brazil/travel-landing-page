@@ -1,0 +1,16 @@
+.menu {
+  width: 60%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu__item {
+  list-style: none;
+  font-family: "Poppins";
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 2%;
+}
