@@ -1,0 +1,84 @@
+.hero {
+  background-color: #9cf3f9;
+}
+
+.hero__title {
+  margin: 0;
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 74px;
+}
+
+.hero__title span {
+  color: #b25a59;
+}
+
+.hero__subtitle {
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero__subtitle__span {
+  color: #b25a59;
+  text-transform: uppercase;
+}
+
+.hero__subtitle__span--bold {
+  font-weight: 700;
+}
+
+.hero__subtitle__span--bolder {
+  font-weight: 800;
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 26px;
+}
+
+.button-discover {
+  border-radius: 80px;
+  background-color: #b25a59;
+  color: #ffffff;
+  border: 0;
+  font-family: "Poppins";
+  font-size: 24px;
+  padding: 22px;
+  font-weight: 600;
+}
+
+.button-watch {
+  background-color: transparent;
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.button-watch__icon-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-watch__icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.button-watch__label {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins";
+}
+
+.button-watch__label span {
+  color: #b25a59;
+}
